@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inspeccione Mach C.A</title>
+  <!--FONT STYLE-->
+  <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" href="/imagen/logo.png">
+  <!--SCSS/CSS-->
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="../index.html"><img class="logo" src="/imagen/logo.png" alt="IMG"></a>
+      <input type="checkbox" id="toggler">
+      <label for="toggler"><div class="ri-menu-line"><i><img class="logo2" src="/imagen/menu2.png" alt="IMG"></i></div></label>
+      <div class="menu">
+        <ul class="list">
+          <li><a href="../index.html" class="right">Inicio</a></li>
+          <li><a href="./ensayos.html" class="right">Ensayos</a></li>
+          <li><a href="./inspeccion.html" class="right">Inspecciones</a></li>
+          <li><a href="./nosotros.html" class="right">Nosotros</a></li>
+          <li><a href="./contacto.html" class="right">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+<!--CODIFICANDO HOJA DE CONTACTO-->
+<section>
+<div class="contactanos">
+  <div>
+    <div>
+      <form>
+        <h1>Contactanos</h1>            
+        <div class="input-group">
+          <input type="text" required class="input1" id="name">
+          <label for="name" class="input-label">Nombre</label>
+        </div>
+        <div class="input-group">
+          <input type="text" required class="input1" id="Apellido">
+          <label for="Apellido" class="input-label">Apellido</label>
+        </div>
+        </div>
+        <div class="input-group">
+          <input type="number" required class="input1" id="Telefono">
+          <label for="Telefono" class="input-label">Telefono</label>
+        </div>
+        <div class="input-group">
+          <input type="email" required class="input1" id="Correo">
+          <label for="Correo" class="input-label">Correo Electronico</label>
+        </div>
+        <fieldset>
+          <textarea name="Comentario" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <div class="btns">
+          <button type="submit" class="btnSend">Enviar</button>
+          <button type="reset" class="btnClear">Borrar Campos</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</section>
+<!--FIN DEL CODIGO CONTACTO-->
+<div class="footer-basic">
+  <footer>
+      <div class="social">
+        <a href="#"><img src="/imagen/instagram-brands.svg" alt="IMG"><i class="icon ion-social-instagram"></i></a>
+        <a href="#"><img src="/imagen/facebook-square-brands.svg" alt="IMG"><i class="icon ion-social-snapchat"></i></a>
+        <a href="#"><img src="/imagen/twitter-square-brands.svg" alt="IMG"><i class="icon ion-social-twitter"></i></a>
+        <a href="#"><img src="/imagen/whatsapp-brands.svg" alt="IMG"><i class="icon ion-social-facebook"></i></a>
+      </div>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="../index.html">Inicio</a></li>
+          <li class="list-inline-item"><a href="./ensayos.html">Ensayos</a></li>
+          <li class="list-inline-item"><a href="./inspeccion.html">Inspecciones</a></li>
+          <li class="list-inline-item"><a href="./nosotros.html">Nosotros</a></li>
+          <li class="list-inline-item"><a href="./contacto.html">Contacto</a></li>
+      </ul>
+      <p class="copyright">Mach Inspecciones © 2022</p>
+  </footer>
+</div>
+</body>
+</html>
