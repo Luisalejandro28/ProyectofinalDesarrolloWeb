@@ -12,7 +12,7 @@ body {
 
 .navbar, .card, .card2, .contactanos, .footer-basic {
   border: solid 4px;
-  border-image-source: linear-gradient(#e78302, #ffff, #e78302);
+  border-image-source: linear-gradient(#e78302, black, #e78302);
   border-image-slice: 4; }
 
 /*HEADER*/
